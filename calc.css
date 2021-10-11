@@ -1,0 +1,125 @@
+@charset="utf-8";
+		body{
+			background-color: #444444;
+		}
+		h1{
+			color: white;
+			text-align: center;
+		}
+		/*------toda plataforma da calculadora----------*/
+		.plataforma{
+			width: 273px;
+			height: 369px;
+			margin-top: 140px;
+			margin-left: 40%;
+			border-radius: 10px;
+			border-style: solid;
+			border-color: gray;
+			box-shadow: -5px 6px 10px black;
+			background-color: gray;
+		}
+		/*-------cabeçalho com o nome do projeto--------*/
+		.cabeçalho{
+			width: 280px;
+			height: 40px;
+			margin-top: -24px;
+			margin-left: -3px;
+			border-top-right-radius: 10px;
+			border-top-left-radius: 10px;
+			background-color: black;
+		}
+		/*div para o visor onde será exibido o resultado*/
+		#resposta{
+			margin: 0px;
+			width: 280px;
+			height: 135px;
+			margin-left: -3px;
+			text-align: center;
+			color: black;
+			font-family: sans-serif;
+			font-size: 25px;
+			text-align: right;
+			background-color: gray;
+		}
+		/*-------div para os botões de operações--------*/
+		.botaooperacao{
+			width: 280px;
+			height: 40px;
+			margin-left: -3px;
+			background-color: #444444;
+		}
+		/*-------estilos para os botões de operações----*/
+		.operacao{
+			width: 56px;
+			height: 40px;
+			margin-right: -4px;
+			color: white;
+			border-color: gray;
+			border-style: solid;
+			background-color: black;
+			cursor: pointer;
+		}
+		.operacao:hover{
+			background-color: #444444;
+		}
+		/*-------div para os botões de numeros----------*/
+		.botaonumeros{
+			width: 210px;
+			height: 115px;
+			margin-left: -3px;
+			border-bottom-left-radius: 10px;
+			background-color: gray;
+		}
+		/*-------estilos para os botões de numeros------*/
+		.btnum{
+			width: 70px;
+			height: 40px;
+			border-style: solid;
+			border-color: gray;
+			margin-left: 0px;
+			margin-right: -4px; 
+			background-color: black;
+			color: white;
+			cursor: pointer;
+		}
+		.btnum:hover{
+			background-color: #444444;
+		}
+		.bt{
+			display: flex;
+		}
+		#raio1{
+			width: 140px;
+			border-bottom-left-radius: 10px;
+		}
+		/******************************************/
+		.exclu{
+			width: 70px;
+			height: 60px;
+			color: white;
+			border-style: solid;
+			border-color: gray;
+			background-color: black;
+			cursor: pointer;
+		}
+		.exclu:hover{
+			background-color: #444444;
+		}
+		.float{
+			width: 70px;
+			height: 100px;
+			color: white;
+			border-style: solid;
+			border-color: gray;
+			background-color: black;
+			cursor: pointer;
+			border-bottom-right-radius: 10px;
+		}
+		.float:hover{
+			background-color: #444444;
+		}
+		.teste{
+			float: right;
+			display: grid;
+			margin-right: -5px;
+		}
