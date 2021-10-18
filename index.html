@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CalcMaster.alfa</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="calc.css" media="screen">
+	<script type="text/javascript" src="calculadora.js"></script>
+</head>
+<body>
+	<div class="plataforma">
+		<div class="cabeçalho">
+			<h1>CalcMaster</h1>			
+		</div>
+			<p id="resposta"></p>
+		<div class="botaooperacao">
+			<button class="operacao" onclick="insert(' + ')">+</button>
+			<button class="operacao" onclick="insert(' - ')">-</button>
+			<button class="operacao" onclick="insert(' * ')">x</button>
+			<button class="operacao" onclick="insert(' / ')">/</button>
+			<button class="operacao" onclick="Clear()">C</button>
+		</div>
+		<div class="bt">
+			<div class="botaonumeros">
+				<button class="btnum" onclick="insert('7')">7</button>
+				<button class="btnum" onclick="insert('8')">8</button>
+				<button class="btnum" onclick="insert('9')">9</button>
+				<button class="btnum" onclick="insert('4')">4</button>
+				<button class="btnum" onclick="insert('5')">5</button>
+				<button class="btnum" onclick="insert('6')">6</button>
+				<button class="btnum" onclick="insert('1')">1</button>
+				<button class="btnum" onclick="insert('2')">2</button>
+				<button class="btnum" onclick="insert('3')">3</button>	
+				<button class="btnum" onclick="insert('0')" id="raio1">0</button>
+				<button class="btnum" onclick="insert('.')">.</button>	
+			</div>
+			<div class="teste">
+				<button class="exclu" onclick="Back()" id="exclu">X</button>
+				<button class="float" onclick="calculo()">=</button> 
+			</div>
+		</div>
+	</div>
+</body>
+</html>
